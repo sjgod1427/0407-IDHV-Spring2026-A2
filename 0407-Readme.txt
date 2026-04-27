@@ -6,13 +6,15 @@ HOW TO RUN
 ----------
 
 1. Install dependencies:
-   pip install pydantic matplotlib
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python3 -m pip install pydantic matplotlib
 
 2. Ensure the project structure is intact (data/data.txt and plots/ must exist).
 
 3. Run the analysis from inside the 0407_code/ folder:
    cd 0407_code
-   python analysis.py
+   python3 analysis.py
 
    This generates all 16 plots and saves them to the plots/ folder.
 
