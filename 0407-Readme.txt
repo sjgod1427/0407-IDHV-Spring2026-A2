@@ -6,9 +6,9 @@ HOW TO RUN
 ----------
 
 1. Install dependencies:
-   python3 -m venv .venv
-   source .venv/bin/activate
-   python3 -m pip install pydantic matplotlib
+   python -m venv .venv
+   .venv\Scripts\activate  ## MAC : source .venv/bin/activate
+   python -m pip install -r requirements.txt
 
 2. Ensure the project structure is intact (data/data.txt and plots/ must exist).
 
@@ -23,12 +23,14 @@ PROJECT STRUCTURE
 -----------------
 
 data/
-  data.txt      Raw transaction data (30 days)
+  data.txt          Raw transaction data (30 days)
 0407_code/
-  model.py      Pydantic data models (Item, Transaction, User, Day)
-  parser.py     Parses data.txt into model objects
-  analysis.py   All 16 analysis tasks and visualizations
-plots/          Output folder for saved chart images
+  model.py          Pydantic data models (Item, Transaction, User, Day)
+  parser.py         Parses data.txt into model objects
+  analysis.py       All 16 analysis tasks and visualizations
+plots/              Output folder for saved chart images
+requirements.txt    Python package dependencies (pydantic, matplotlib)
+
 
 
 
