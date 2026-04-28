@@ -1,5 +1,5 @@
 S20230030407 - Assignment 2
-Introduction to Data and Human Values (IDHV)
+IDHV
 =============================================
 
 HOW TO RUN
